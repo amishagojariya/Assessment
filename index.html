@@ -45,20 +45,22 @@
         </div>
 
         <div class="box1">
+            <form action="">
             <div class="form">
                 <div class="info">
-                    <input type="text" placeholder="Name:">
-                    <input type="text" placeholder="Company:">
+                    <input type="text" placeholder="Name:" required minlength="3" maxlength="6">
+                    <input type="text" placeholder="Company:" required>
                 </div>
                 <div class="contact">
-                    <input type="text" placeholder="Email">
-                    <input type="text" placeholder="Mobile">
+                    <input type="text" placeholder="Email" required>
+                    <input type="text" placeholder="Mobile" required maxlength="10">
                 </div>
                 <div class="msg">
-                    <input type="text" placeholder="Message">
+                    <input type="text" placeholder="Message" required>
                 </div>
                 <button>Send</button>
             </div>
+        </form>
 
             <div class="map">
                 <div class="root">
